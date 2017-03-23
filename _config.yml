@@ -1,0 +1,216 @@
+
+# Site settings
+
+# NB! Set your site's url, otherwise stuff will break :)
+
+url: "https://mehuled.github.io"
+
+# If you're hosting your site at a Project repository on GitHub pages
+# (https://yourusername.github.io/repository-name)
+# and NOT your user repository (https://yourusername.github.io)
+# then add in the baseurl here, like this: "/repository-name"
+#
+# NB! Without this *nothing* will work, because it's used in every path :)
+
+baseurl: /personal-jekyll-theme
+
+# Google tracking id
+
+google-tracking-id: ""
+
+# Forces https everywhere in your website, except when you serve it locally
+# If you are not hosted on Github Pages, and your host doesn't support https
+# then you should disable it
+
+force-https: True
+
+#############
+# HTML Head #
+#############
+
+lang: "en"
+author: "Mehul Sharma"
+title: "{ Mehul Sharma }"
+description: "Personal website of Mehul Sharma, hosting details about projects, internships & more."
+keywords: "mehuled, mehul-sharma, personal, jekyll,"
+favicon: "/img/favicon.ico"
+
+################
+# Header layout #
+################
+
+black-favicon: "/img/iron.png"
+
+background-img: "../img/intro-bg.jpg"
+
+##############################
+# Dynamic Text on the Header #
+##############################
+
+dynamic-typing: True
+shuffle: false # Shuffle the lines.
+loop: True
+loop-count: 1 # Set False for infinite loop, or set any number for finite loop.
+type-speed: 90
+start-delay: 50
+delete-delay: 1000
+lines: # You can add HTML Tags in the Text
+  - text:  "#Hi, There!"
+  - text: "I'm Mehul Sharma"
+  - text: "A sophomore in computer science engineering"
+  - text: "Presently studying at <b>The LNM Institute Of Information Technology, Jaipur</b>"
+  - text: "Go on! Know more about me."
+me-img: "/img/author.png"
+
+##############################
+# Color the browser elements #
+##############################
+color-browser: "#000000"
+apple-status-bar-style: "black-lab-glass"
+
+################
+# Web app mode #
+################
+
+web-app-mode: True
+
+# Icons for Web App mode
+
+icon-36p: "/img/web-app/icon-36p.png"
+icon-48p: "/img/web-app/icon-48p.png"
+icon-72p: "/img/web-app/icon-72p.png"
+icon-96p: "/img/web-app/icon-96p.png"
+icon-144p: "/img/web-app/icon-144p.png"
+icon-192p: "/img/web-app/icon-192p.png"
+
+########
+# Blog #
+########
+
+enable-gesture-navigation: True
+
+post-preview-words: 50
+
+paginate: 5
+
+email-share: True
+fb-share: True
+twitter-share: True
+linkedin-share: True
+reddit-share: True
+google-plus-share: True
+tumblr-share: False
+pinterest-share: False
+pocket-share: False
+vkontakte-share: False
+
+disqus-shortname: "mehuled"
+
+syntax-highlight: True
+
+############
+# Timeline #
+############
+
+events:
+
+  - image: "/img/timeline/8.png"
+    date: "March 2017"
+    description: "Started Javascript and Node.js to work on a personal project."
+  - image: "/img/timeline/7.png"
+    date: "December 2016 - January 2017"
+    description: "Audio lecture summarizer in Python based on ML. (Winter Internship Project)"
+  - image: "/img/timeline/6.png"
+    date: "November 2016"
+    description: "Created Text editor & spell checker in JAVA for self use."
+  - image: "/img/timeline/5.png"
+    date: "August 2016"
+    description: "Became a technical team member at Training & Placement Cell, The LNM Institute Of Information Technology."
+  - image: "/img/timeline/4.png"
+    date: "May 2016 - June 2016"
+    description: "Completed Udacity's course on Android app development"
+  - image: "/img/timeline/3.png"
+    date: "March 2016"
+    description: "Participated & mentored students in Applied CS with Android by Google."
+  - image: "/img/timeline/2.png"
+    date: "December 2015 "
+    description: "Started learning Android."
+  - image: "/img/timeline/1.png"
+    date: "July 2015"
+    description: "Undergrad CSE at The LNM Institute Of Information Technology."
+# First image of the Timeline
+
+timeline-img: "/img/timeline/0.png"
+
+###########
+# Contact #
+###########
+
+email: "mehulcse0209@gmail.com"
+
+################
+# Author Blurb #
+################
+
+# The author blurb goes underneath blog posts.
+# This works best when your author blurb image has a transparent background, or matches your site background color.
+
+# if the author_blurb is not set, then this feature is skipped
+author_blurb: "Mehul Sharma, is a generic (as he like being called) computer science student that loves learning and solving. He loves music ranging from Queen to "
+author_blurb_image: "/img/author.png"
+
+##################
+# Social Buttons #
+##################
+
+social:
+  - title: "facebook"
+    url: "https://facebook.com/mehulsharma09"
+  - title: "github"
+    url: "https://github.com/mehuled"
+  - title: "instagram"
+    url: "https://www.instagram.com/mehuled/?hl=en"
+
+
+############
+# 404 page #
+############
+
+err-404-img: "/img/labtocat.png"
+
+##################
+# GPG on Keybase #
+##################
+
+keybase-username: mehuled
+keybase-in-social: False
+keybase-in-footer: False
+
+################################################################################
+
+# NB! Tread carefully if you want to change the variables below this point!
+
+# Sections shown in the index page
+
+pages_list:
+  About: 'about'
+  Projects & Blogs: 'latest-post'
+  Timeline: 'timeline'
+  Contact: 'contact'
+  Resume : 'resume'
+# Exclusion list from the generated _site
+
+exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]
+
+# Pagination path
+
+paginate_path: "blog/page:num/"
+
+# Enable minification SASS
+
+sass:
+  style: compressed
+
+gems:
+  - jekyll-paginate
+  - jemoji

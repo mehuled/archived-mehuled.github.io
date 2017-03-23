@@ -1,0 +1,24 @@
+
+<!-- Pagination Links Start -->
+
+<div class="pagination">
+
+  <h4>
+
+  {% if paginator.previous_page %}
+    <a href="{{site.baseurl}}{{paginator.previous_page_path}}" class="previous">Newer Projects</a>
+  {% endif %}
+
+  {% if paginator.previous_page and paginator.next_page %}
+    |
+  {% endif %}
+
+  {% if paginator.next_page %}
+    <a href="{{site.baseurl}}{{paginator.next_page_path}}" class="next">Previous Projects</a>
+  {% endif %}
+
+  </h4>
+
+</div>
+
+<!-- Pagination Links End -->

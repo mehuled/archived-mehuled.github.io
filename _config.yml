@@ -51,15 +51,15 @@ dynamic-typing: True
 shuffle: false # Shuffle the lines.
 loop: True
 loop-count: 1 # Set False for infinite loop, or set any number for finite loop.
-type-speed: 90
+type-speed: 10
 start-delay: 50
 delete-delay: 1000
 lines: # You can add HTML Tags in the Text
   - text:  "#Hi, There!"
-  - text: "I'm Mehul Sharma"
-  - text: "A sophomore in computer science engineering"
-  - text: "Presently studying at <b>The LNM Institute Of Information Technology, Jaipur</b>"
-  - text: "Go on! Know more about me."
+  - text: "I'm Mehul Sharma,"
+  - text: "A sophomore in computer science engineering,"
+  - text: "Presently studying at <b>LNMIIT, Jaipur.</b>"
+  - text: "Go on! <a href='#about'> Know more</a> about me."
 me-img: "/img/author.png"
 
 ##############################
@@ -156,7 +156,7 @@ email: "mehulcse0209@gmail.com"
 # This works best when your author blurb image has a transparent background, or matches your site background color.
 
 # if the author_blurb is not set, then this feature is skipped
-author_blurb: "Mehul Sharma, is a generic (as he like being called) computer science student that loves learning and solving. He loves music ranging from Queen to "
+author_blurb: "Mehul Sharma, is a generic (as he like being called) computer science student that loves learning and solving. He loves music ranging from Queen to Johnny Cash, suggest him a track if you want. "
 author_blurb_image: "/img/author.png"
 
 ##################

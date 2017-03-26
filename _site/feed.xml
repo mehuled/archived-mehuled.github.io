@@ -7,6 +7,19 @@
 		<atom:link href="https://mehuled.github.io/feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
+				<title>Mini posts and feed applet using Java, JSP &amp; MySQL</title>
+				
+				
+					<description>&lt;p&gt;C.A.R.V.I.S is an ISA designed by me as part of my academic project in the Computer Organisation Archtecture course in the 4th semester.&lt;/p&gt;
+
+</description>
+				
+				<pubDate>Sun, 26 Mar 2017 00:00:00 +0530</pubDate>
+				<link>https://mehuled.github.io/java/2017/03/26/java_social-network.html</link>
+				<guid isPermaLink="true">https://mehuled.github.io/java/2017/03/26/java_social-network.html</guid>
+			</item>
+		
+			<item>
 				<title>ISA design using C programming language and assembly instructions.</title>
 				
 				
@@ -14,13 +27,13 @@
 
 </description>
 				
-				<pubDate>Sat, 27 Jun 2015 00:00:00 +0530</pubDate>
-				<link>https://mehuled.github.io/academic/2015/06/27/welcome.html</link>
-				<guid isPermaLink="true">https://mehuled.github.io/academic/2015/06/27/welcome.html</guid>
+				<pubDate>Fri, 27 Jan 2017 00:00:00 +0530</pubDate>
+				<link>https://mehuled.github.io/academic/2017/01/27/carvis_coa.html</link>
+				<guid isPermaLink="true">https://mehuled.github.io/academic/2017/01/27/carvis_coa.html</guid>
 			</item>
 		
 			<item>
-				<title>Initial setup</title>
+				<title>Audio lecture summarizer using Python &amp; CMU Sphinix</title>
 				
 				
 					<description>&lt;p&gt;All features of { Personal } are controlled by setting values to variables that are defined in the
@@ -29,103 +42,24 @@ serving your { Personal } website for the first time.&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Thu, 25 Jun 2015 00:00:00 +0530</pubDate>
-				<link>https://mehuled.github.io/tech/2015/06/25/initial-setup.html</link>
-				<guid isPermaLink="true">https://mehuled.github.io/tech/2015/06/25/initial-setup.html</guid>
+				<pubDate>Tue, 20 Dec 2016 00:00:00 +0530</pubDate>
+				<link>https://mehuled.github.io/machine%20learning/2016/12/20/audio-lecture-summarizer.html</link>
+				<guid isPermaLink="true">https://mehuled.github.io/machine%20learning/2016/12/20/audio-lecture-summarizer.html</guid>
 			</item>
 		
 			<item>
-				<title>Modifying the Header</title>
+				<title>Simple text editor in JAVA with auto suggest and spell checker</title>
 				
 				
-					<description>&lt;p&gt;The intro part of the index page (Header) is consisted of four elements:&lt;/p&gt;
+					<description>&lt;p&gt;All features of { Personal } are controlled by setting values to variables that are defined in the
+_config.yml file. Let’s start with the initial variables that you have to set before
+serving your { Personal } website for the first time.&lt;/p&gt;
 
 </description>
 				
-				<pubDate>Wed, 24 Jun 2015 00:00:00 +0530</pubDate>
-				<link>https://mehuled.github.io/tech/2015/06/24/intro-layout-tutorial.html</link>
-				<guid isPermaLink="true">https://mehuled.github.io/tech/2015/06/24/intro-layout-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Web app mode</title>
-				
-				
-					<description>&lt;p&gt;You can make your website behave like a native web app in iOS and Android devices
-by providing links for the icons for each resolution:&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Mon, 22 Jun 2015 00:00:00 +0530</pubDate>
-				<link>https://mehuled.github.io/tech/2015/06/22/web-app-mode.html</link>
-				<guid isPermaLink="true">https://mehuled.github.io/tech/2015/06/22/web-app-mode.html</guid>
-			</item>
-		
-			<item>
-				<title>Setting up the Blog</title>
-				
-				
-					<description>&lt;p&gt;A website is truly personal if it hosts your blog as well, this place of the internet
-where you can place your thoughts about anything!&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Sat, 20 Jun 2015 00:00:00 +0530</pubDate>
-				<link>https://mehuled.github.io/tech/2015/06/20/blog-tutorial.html</link>
-				<guid isPermaLink="true">https://mehuled.github.io/tech/2015/06/20/blog-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Writing posts</title>
-				
-				
-					<description>&lt;h3 id=&quot;creating-a-new-post&quot;&gt;Creating a new post&lt;/h3&gt;
-
-</description>
-				
-				<pubDate>Fri, 19 Jun 2015 00:00:00 +0530</pubDate>
-				<link>https://mehuled.github.io/tech/2015/06/19/writing-posts.html</link>
-				<guid isPermaLink="true">https://mehuled.github.io/tech/2015/06/19/writing-posts.html</guid>
-			</item>
-		
-			<item>
-				<title>Adding a life event in the Timeline</title>
-				
-				
-					<description>&lt;p&gt;One of the coolest features of { Personal } is that enables you to tell your life’s story in
-the form of a timeline of photos, dates and text descriptions.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Fri, 12 Jun 2015 00:00:00 +0530</pubDate>
-				<link>https://mehuled.github.io/tech/2015/06/12/timeline-tutorial.html</link>
-				<guid isPermaLink="true">https://mehuled.github.io/tech/2015/06/12/timeline-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the social buttons</title>
-				
-				
-					<description>&lt;p&gt;Social buttons (rendered above the footer) are great for having a small hub with all your social footprint.&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Thu, 11 Jun 2015 00:00:00 +0530</pubDate>
-				<link>https://mehuled.github.io/tech/2015/06/11/social-buttons-tutorial.html</link>
-				<guid isPermaLink="true">https://mehuled.github.io/tech/2015/06/11/social-buttons-tutorial.html</guid>
-			</item>
-		
-			<item>
-				<title>Modifying the Contact</title>
-				
-				
-					<description>&lt;p&gt;The contact part of the index page is consisted of two elements:&lt;/p&gt;
-
-</description>
-				
-				<pubDate>Wed, 10 Jun 2015 00:00:00 +0530</pubDate>
-				<link>https://mehuled.github.io/tech/2015/06/10/contact-tutorial.html</link>
-				<guid isPermaLink="true">https://mehuled.github.io/tech/2015/06/10/contact-tutorial.html</guid>
+				<pubDate>Wed, 02 Nov 2016 00:00:00 +0530</pubDate>
+				<link>https://mehuled.github.io/2016/11/02/simple-text-edito-in-JAVA.html</link>
+				<guid isPermaLink="true">https://mehuled.github.io/2016/11/02/simple-text-edito-in-JAVA.html</guid>
 			</item>
 		
 	</channel>

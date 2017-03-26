@@ -1,9 +1,9 @@
 ---
 layout: post
 section-type: post
-title: Initial setup
-category: tech
-tags: [ 'tutorial' ]
+title: Audio lecture summarizer using Python & CMU Sphinix
+category: Machine Learning
+tags: [ 'Python', 'CMU Sphinix', 'Machine Learning' ]
 ---
 
 All features of { Personal } are controlled by setting values to variables that are defined in the

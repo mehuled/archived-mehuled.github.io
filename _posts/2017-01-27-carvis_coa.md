@@ -3,7 +3,7 @@ layout: post
 section-type: post
 title: ISA design using C programming language and assembly instructions.
 category: academic
-tags: [ 'C' ]
+tags: [ 'C', 'Assembly Language' ]
 ---
 
 C.A.R.V.I.S is an ISA designed by me as part of my academic project in the Computer Organisation Archtecture course in the 4th semester.

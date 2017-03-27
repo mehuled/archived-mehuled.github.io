@@ -197,7 +197,6 @@ pages_list:
   Projects & Blogs: 'latest-post'
   Timeline: 'timeline'
   Contact: 'contact'
-  Resume : 'resume'
 # Exclusion list from the generated _site
 
 exclude: ["LICENSE", "README.md", "CONTRIBUTING", "CONTRIBUTORS", "scripts"]

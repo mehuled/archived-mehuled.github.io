@@ -57,7 +57,7 @@ delete-delay: 1000
 lines: # You can add HTML Tags in the Text
   - text:  "#Hi, There!"
   - text: "I'm Mehul Sharma,"
-  - text: "A sophomore in computer science engineering,"
+  - text: "A Sophomore in Computer Science Engineering,"
   - text: "Presently studying at <b>LNMIIT, Jaipur.</b>"
   - text: "Go on! <a href='#about'> Know more</a> about me."
 me-img: "/img/author.png"

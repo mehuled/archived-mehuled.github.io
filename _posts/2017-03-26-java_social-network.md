@@ -6,26 +6,15 @@ category: JAVA
 tags: [ 'JAVA', 'JSP' ,'MySQL' ]
 ---
 
-C.A.R.V.I.S is an ISA designed by me as part of my academic project in the Computer Organisation Archtecture course in the 4th semester.
-
-Aim of the project was to learn the ways machines work from the highest level to generation and parsing of binary code.
-
-Project was divided into 4 modules :
-
-#### Description of the functions of C.A.R.V.I.S
-This basically meant listing out the functionality that we expected C.A.R.V.I.S to achieve. It also meant to figure out the computation, registers, opcodes and instructions that were to be created so as to achieve this functionality.
-
-You can have alook at the functionalities [here](https://drive.google.com/open?id=1CwdD4JXShUYyHLKRzKKKE6BlBOoGgd-XFl1yc_F_9Go).
-
-#### Creation of assembly level instructions for each function and generation binary equiavlent.
-This meant breaking down each function into assembly language instructions and later using this instruction set to generate coressponding binary equivalent for each function.
-
-#### Computation of assembly language code to actually implement the functions.
-Bit Masking was used to parse through binary instructions generated in the other module and compute various instructions in C language therby finally implementing the functionality.
 
 
-#### Using gates and sequential circuit to implement functions.
-This was the electrical-ish part of the project where we were supposed to breakdown all the functions using gates and sequential circuits therby working like building a machine from scratch.
+As part of the OOP course in 4th semester we were supposed to work on a project that implemented best OOP practices
 
+So we decided to work on a Instagram like applet that let users post photos and status updates amd which are available on feeds on their friends who follow them.
 
-You can find the complete code for the program [here](https://github.com/mehuled/carvis)
+The inspiration of the project was to understand and implement the use of JSP, JDBC, MySQL and best OOP practices along with understanding the way social networks function by using efiecient data structures to hold user information.
+
+We are presently working on the project and are planning to finish it by 1 April.
+
+Once finshed I'm looking to publish the project using [Heroku](https://www.heroku.com)(Heroku is a cloud service to manage and build products)
+
